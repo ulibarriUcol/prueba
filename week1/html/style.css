@@ -1,0 +1,82 @@
+
+
+header,
+footer{
+    color: white;
+    background: black;
+    padding: 20px 10px;
+    font-size: 20px ;
+}
+
+body > * {
+    border: 1px solid black;
+    /* min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column; */
+}
+img {
+    width: 100px;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-around;
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+}
+.section5{
+    /* display: flex;  k*/
+    text-align: center;
+    /* flex: 1; */
+}
+figure{
+        text-align: center;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+  }
+
+  /* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: rgb(19, 22, 213);
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }

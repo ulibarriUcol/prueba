@@ -1,0 +1,21 @@
+header{
+        background-color: green;
+}
+
+
+.container {
+        display: flex; /* or inline-flex */
+      }
+
+@media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+/* selectore de etiqueta: section, header, nav */
+/* Selector de hijos o descendente: es hijo de algun otro de otro elemeto
+body header div nav ol li a */
+/* Selector de clase: aplica a los nombres de clase definidos y necesita
+la notacion del punto  .link */
+/* Selector de ID: utiliza el numeral # y el id del elemento 
+#portfolio */
