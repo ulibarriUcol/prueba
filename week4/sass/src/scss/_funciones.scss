@@ -1,0 +1,15 @@
+$color-blue: blue;
+$color-white: white;
+
+a:hover{
+    background-color: darken($color-blue, 25%)
+}
+
+$list: img_chania img_girl pic_trulli workplace img_pink_flowers;
+@for $var from 1 through length($list) {
+    $nombre: nth($list,$var);
+    $path: "https://www.w3schools.com/html/" + $nombre + ".jpg";
+    #img#{$var}{
+        background: url($path) no-repeat;
+    }
+}

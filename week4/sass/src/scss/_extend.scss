@@ -1,0 +1,19 @@
+.dialog-button{
+    box-sizing: border-box;
+    color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.12);
+    padding: 12px 40px;
+}
+
+.confirm{
+    @extend .dialog-button;
+    background-color: red;
+}
+
+.cancel{
+    @extend .dialog-button;
+    background-color: blue;
+}
+// para extend se aplica el termino de la herencia, tal cual es
+// todas las caracteristicas del padre pasan al hijo
+// no puedo elegir que es lo que hereda o no

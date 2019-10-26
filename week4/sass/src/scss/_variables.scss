@@ -1,0 +1,16 @@
+$title-font: normal 24px "Open Sans";
+$color-red: #F44336;
+$box-shadow-bottom: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+
+h1.title{
+    font: $title-font;
+    color:$color-red;
+}
+div.container{
+    color: $color-red;
+    box-shadow: $box-shadow-bottom;
+}
+
+// aqui declaramos variables asociadas a atributos del html
+//y al importarlo a main.css esas variables son accesibles
+// desde afuera

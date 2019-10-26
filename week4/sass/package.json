@@ -1,0 +1,14 @@
+{
+  "name": "bedu-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss/main.scss src/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.23.0"
+  }
+}

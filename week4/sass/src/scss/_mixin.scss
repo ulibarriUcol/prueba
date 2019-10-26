@@ -1,0 +1,19 @@
+@mixin square($size,$color) {
+    width: $size;
+    height: $size;
+    background-color: $color;
+}
+
+.blue-sq{
+    @include square(20,rgb(0,0,255) );
+}
+.red-sq{
+    @include square(20,rgb(255, 0, 0) );
+}
+
+
+// con mixin puedo definir una cantidad N de funciones
+// que cambien atributos de CSS y al definir clases
+//como .blue-sq solo llamar la que necesite, en este caso square
+//pero si hubiera otras como circle o triangle
+//no necesito llamar a todas, sino solo las que necesite

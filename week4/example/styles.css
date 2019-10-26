@@ -1,0 +1,55 @@
+
+body{
+    font-size: 22px;
+}
+#u{
+    height: 150px;  
+    /* aqui creamos un elemento de 150px */
+}
+#uno{
+    background-color: aqua;
+    /* aqui asignamos el 25% de esos 150px */
+    height: 25%; 
+}
+#dos{
+    background-color: green;
+    height: 25vh;
+}
+#tres{
+    background-color: red;
+    height: 1em;
+}
+#cuatro{
+    background-color: blue;
+    height: 1rem;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 30px;
+    }
+} 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        font-size: 40px;
+    }
+} 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        font-size: 50px;
+    }
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        font-size: 60px;
+    }
+} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        font-size: 70px;
+    }
+}

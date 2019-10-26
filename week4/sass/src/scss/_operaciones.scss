@@ -1,0 +1,18 @@
+$width : 100px;
+
+.cl-50{
+    width: $width/2;
+    height: $width;
+    background-color: lightgray;
+}
+
+.cl-100{
+    width: $width;
+    height: $width;
+    background-color: gray;
+}
+
+
+// aqui definimos un ancho por default
+//y definimos clases que aplican un porcentaje de ese ancho
+//mediante operaciones aritmeticas
